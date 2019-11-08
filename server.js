@@ -169,3 +169,10 @@ function Trails(trail) {
 
 // Make sure the server is listening for requests
 app.listen(PORT, () => console.log(`App is listening on ${PORT}`));
+
+
+// cache select * from lacations where search_query = 'seattle';
+
+// let values = [city];
+// let SQL = `SELECT * FROM locations where search_query = $1`;
+
